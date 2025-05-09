@@ -34,10 +34,14 @@ h1 {
 
 
 h2 {
-    color:white;
-    background-color: black;
+    
     padding: 20px;
     margin: auto 0;
+}
+main h2 {
+    color:white;
+    background-color: black;
+
 }
 
 header {

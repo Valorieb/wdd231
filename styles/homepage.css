@@ -1,0 +1,162 @@
+body {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(7, 76, 121);
+}
+
+button {
+    width: 70px;
+    height: 60px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: rgb(213, 238, 255);
+    padding:20px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+h1 {
+  font-family: "Kanchenjunga", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+
+
+h2 {
+    color:white;
+    background-color: black;
+    padding: 20px;
+    margin: auto 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(121, 201, 255);
+  height: 250px;
+  width:auto;
+}
+
+.container{
+    display:block;
+}
+
+.cert {
+    grid-column: 1/3;
+    
+}
+
+.cert, .country, .course-work {
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.country img {
+    margin: 20px;
+    height: 150px;
+    width: auto;
+}
+
+.profile-stuff{
+    justify-self:center;
+    align-self:center;
+    display:flex;
+}
+
+
+header h1 {
+  padding: 20px;
+}
+
+nav {
+ display: none;
+}
+
+nav a{
+    color: white;
+    text-underline-offset: 4px;
+
+}
+
+nav a:hover{
+    color:rgb(185, 245, 245);
+}
+
+.active{
+    color:lime;
+    text-shadow: 0 0 8px #0ff, 0 0 16px #0ff;
+}
+
+
+header img {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+footer {
+    background-color: rgb(121, 201, 255);
+    padding:20px;
+    text-align: center;
+}
+
+#lastModified{
+    font-size: small;
+}
+
+#courses ul{
+    display: block;
+}
+
+#courses li{
+    list-style-type: none;
+    padding:20px;
+    border:#000000 solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* --------Hamburger menu --------*/
+
+nav.show {
+  display: block;
+}
+
+.show li {
+  text-align: center;
+  display: block;
+  background-color: #000000;
+  padding: 10px;
+  max-width: 200px;
+}
+
+#menu {
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration:none;
+    padding: 0.5rem 0.75rem;    
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+  content: "x";
+}
+
+

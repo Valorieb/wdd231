@@ -1,0 +1,79 @@
+@media (min-width: 786px) {
+  body {
+    max-width: 1220px;
+  }
+
+  button {
+    min-width: 90px;
+    min-height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+  header {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 70% 30%;
+    background-color: rgb(121, 201, 255);
+    height: 300px;
+    width: auto;
+  }
+
+  .container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+  .profile-stuff{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+  .profile-stuff h1 {
+    font-size: 40px;
+  }
+  
+  nav {
+  background-color: #000000;
+  
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  height: 30px;
+  margin: 0;
+  padding: 20px;
+  align-self: end;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  max-height: 100%;
+  align-self: center;
+}
+
+nav li {
+  padding: 20px;
+  list-style-type: none;
+  flex: 1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  max-height: 100%;
+}
+
+#courses ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+ #menu {
+    display: none;
+  }
+
+
+}

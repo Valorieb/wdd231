@@ -13,6 +13,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&family=Montserrat&display=swap"
       rel="stylesheet"
+      
     >
 
     <link rel="stylesheet" href="styles/normalize.css" >
@@ -22,6 +23,8 @@
     <script src="scripts/course.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+
+    <link rel="preload" as="image" href="images/illinois-map.avif" type="image/avif">
   </head>
 
   <body>
@@ -64,12 +67,17 @@
         </section>
         <section class="country">
           <h2>Illinois, USA</h2>
-          <img
-            src="images/illinois-map.avif"
-            alt="Map of United States"
-            width="225"
-            height="150"
-          />
+          <picture>
+            <source srcset="images/illinois-map.avif" type="image/avif">
+            <source srcset="images/illinois-map.webp" type="image/webp">
+            <img
+              src="images/illinois-map.jpg"
+              alt="Map of United States"
+              width="225"
+              height="150"
+            >
+          </picture>
+          
         </section>
         <div class="cert">
           <h2>Web and Computer Programming Certificate</h2>

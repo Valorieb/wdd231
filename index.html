@@ -6,6 +6,13 @@
     <meta name="description" content="Valorie Broderick home page WDD 231">
     <meta name="author" content="Valorie Broderick">
 
+    <meta property="og:title" content="Home Page - Valorie Broderick">
+    <meta property="og:description" content="This is the landing page for my WDD 231 coursework.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Valorie+Broderick+WDD231">
+    <meta property="og:url" content="https://valorieb.github.io/wdd231/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
     <title>Home Page - Valorie Broderick</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,12 +32,21 @@
     <script src="scripts/navigation.js" defer></script>
 
     <link rel="preload" as="image" href="images/illinois-map.avif" type="image/avif">
+    <link rel="preload" as="image" href="images/profilepic.webp" type="image/webp">
+
+    <link rel="icon" href="favicon.ico">
+
+
   </head>
 
   <body>
     <header>
       <div class="profile-stuff">
-        <img src="images/profilepic.webp" alt="profile" />
+        <picture>
+          <source srcset="images/profilepic.webp" type="image/webp">
+          <img src="images/profilepic.webp" alt="profile" width="150" height="150">
+        </picture>
+        
         <h2>Valorie Broderick</h2>
       </div>
       <a id="menu" href="#" aria-label="Open navigation menu"></a>

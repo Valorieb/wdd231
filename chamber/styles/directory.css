@@ -11,10 +11,6 @@ h1 {
   font-style: normal;
 }
 
-
-
-
-
 .logo {
   display: block;
   padding: 10px;
@@ -92,6 +88,7 @@ main h1{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
   gap: 1rem;
+  margin: 20px;
 }
 
 #members.listView{
@@ -151,6 +148,7 @@ main h1{
 .card-toggle-text{
   color: rgb(255, 225, 125);
   background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   padding: 10px;
 }
@@ -158,6 +156,7 @@ main h1{
 body.listView .card-toggle-text{
   color: rgb(255, 255, 255);
   background-color:transparent;
+  border: none;
 }
 
 .list-toggle-text{
@@ -170,6 +169,7 @@ body.listView .card-toggle-text{
 body.listView .list-toggle-text{
   color: rgb(255, 225, 125);
   background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   
 }
 

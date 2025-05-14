@@ -1,0 +1,215 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+}
+
+h1 {
+  font-family: "Ranchers", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+.logo {
+  display: block;
+  padding: 10px;
+}
+
+.name p {
+  padding: 0;
+  margin: 0;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.name h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  padding: 10px;
+}
+
+.header-container {
+  display: block;
+  background-color: #3a3b89;
+  /* background-color: rgb(78, 76, 184); */
+  color: white;
+}
+
+nav {
+  /* display:none; */
+  margin-left: auto;
+  padding: 10px;
+}
+
+nav ul {
+  display: block;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  padding: 10px;
+  color: white;
+  text-underline-offset: 5px;
+  display: block;
+}
+
+li.current-menu-item a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+ul.menuLinks {
+  display: none;
+}
+
+ul.menuLinks.open {
+  display: block;
+}
+
+main {
+  background: radial-gradient(circle, rgb(144, 6, 144),rgb(57, 1, 57));
+  min-height: 300px;
+  padding:20px;
+}
+
+main h1{
+  text-align: center;
+  color: white;
+}
+
+#members{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  gap: 1rem;
+}
+
+#members.listView{
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.toggle-switch input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+
+
+.listView li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: rgb(84, 4, 84);
+  color: white;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+#members.listView .card {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.redacted {
+  background-color:black;
+  color:black;
+  border-radius: 3px;
+}
+
+.redacted:hover {
+  color: white;
+}
+
+.card img {
+  height: 150px;
+  width: auto;
+}
+
+.card-toggle-text{
+  color: rgb(255, 225, 125);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body.listView .card-toggle-text{
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+}
+
+.list-toggle-text{
+  color: rgb(255, 251, 251);
+  background-color:transparent;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body.listView .list-toggle-text{
+  color: rgb(255, 225, 125);
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+
+
+footer {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  margin: auto 0;
+  color:black;
+}
+
+.address,
+.social_media_links,
+.copyright-info {
+  padding: 20px;
+}
+
+.social_media_links a {
+  padding: 10px;
+}
+
+#myButton {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem 2vw;
+  align-self: flex-start;
+}
+
+#myButton::before {
+  content: "\2630";
+}
+
+#myButton.open::before {
+  content: "x";
+}

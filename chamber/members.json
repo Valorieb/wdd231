@@ -1,0 +1,132 @@
+{
+  "members": [
+    {
+      "name": "Big Rico's Pizza",
+      "address": "182 Main Street",
+      "phone": "(928) 555-0111",
+      "websiteUrl": "http://bigrico.pizza",
+      "imageUrl": "images/bigrico.webp",
+      "membershipLvl": 1,
+      "angelAffiliated": "Yes",
+      "governmentMonitoringLevel": "Constant",
+      "curseLevel": "Extremely haunted",
+      "voidExposure": "3 days"
+    },
+    {
+      "name": "Sheriff's Secret Police",
+      "address": "Undisclosed",
+      "phone": "(555) 000-0000",
+      "websiteUrl": "classified@nightvalesp.gov",
+      "imageUrl": "images/secret-police.webp",
+      "membershipLvl": 4,
+      "angelAffiliated": "No - there are no angels. You never saw any angels. This category does not exist. You are not reading this.",
+      "governmentMonitoringLevel": "Always",
+      "curseLevel": "Active",
+      "voidExposure": "Classified"
+    },
+    {
+      "name": "Desert Flower Bowling Alley and Arcade Fun Complex",
+      "address": "12 Desert Flower Lane",
+      "phone": "(928) 555-1983",
+      "websiteUrl": "http://desertflower.fun (Note: site may be non-Euclidean)",
+      "imageUrl": "images/desert-flower.webp",
+      "membershipLvl": 1,
+      "angelAffiliated": "Yes -- angels routinely bowl perfect games",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "High",
+      "curseLevel": "Occasionally haunted",
+      "voidExposure": "3 minutes - 300 years"
+    },
+    {
+      "name": "Dark Owl Records",
+      "address": "1313 Canyon Blv ",
+      "phone": "(928) 555-7832",
+      "websiteUrl": "http://darkowl.nv",
+      "imageUrl": "images/dark-owl.webp",
+      "membershipLvl": 1,
+      "angelAffiliated": "No -- bad vibes ",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "Subtle but omnipresent",
+      "curseLevel": "Mild",
+      "voidExposure": "6 hours"
+    },
+    {
+      "name": "StrexCorp Synernists Inc.",
+      "address": "1 Unity Plaza, Corporate Sector Alpha",
+      "phone": "1-800-STR-EXCR ",
+      "websiteUrl": "http://strexcorp.biz",
+      "imageUrl": "images/strex.webp",
+      "membershipLvl": 5,
+      "angelAffiliated": "No – angels are not permitted under StrexCorp bylaws",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "N/A",
+      "curseLevel": "Rebranded as 'Motivational Energy'",
+      "voidExposure": "Suppressed through mandatory positivity training"
+    },
+    {
+      "name": "Night Vale Dog Park Association",
+      "address": "Exists outside of linear space",
+      "phone": "🛑 DO NOT ATTEMPT TO CONTACT",
+      "websiteUrl": "http://nodogsallowed.nv",
+      "imageUrl": "images/dog-park.webp",
+      "membershipLvl": "∞",
+      "angelAffiliated": "We are not permitted to ask",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "No official records",
+      "curseLevel": "Redacted",
+      "voidExposure": "Unmeasurable"
+    },
+    {
+      "name": "Night Vale Public Library",
+      "address": "55 3rd Street",
+      "phone": "(928) 555-0162",
+      "websiteUrl": "http://nightvalelibrary.gov ",
+      "imageUrl": "images/library.webp",
+      "membershipLvl": 2,
+      "angelAffiliated": "Absolutely not – librarians do not recognize celestial hierarchies",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "Minimal",
+      "curseLevel": "Lethal",
+      "voidExposure": "7 minutes (longer exposure may result in permanent narrative displacement)"
+    },
+    {
+      "name": "Night Vale Community College",
+      "address": "1 Learning Circle",
+      "phone": "(928) 555-0420",
+      "websiteUrl": "http://nvcc.edu.nv",
+      "imageUrl": "images/nvcc-logo.webp",
+      "membershipLvl": 3,
+      "angelAffiliated": "Yes",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "Moderate",
+      "curseLevel": "Mildy haunted philosophy department",
+      "voidExposure": "Varies by major (see course catalog)"
+    },
+    {
+      "name": "The Dark Box",
+      "address": "Beneath Station Management's HR wing",
+      "phone": "N/A",
+      "websiteUrl": "http://citycouncil.gov.nv/darkbox",
+      "imageUrl": "images/black-box.webp",
+      "membershipLvl": 4,
+      "angelAffiliated": true,
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "Absolute",
+      "curseLevel": "Infinite",
+      "voidExposure": "Complete – though no record of your presence will remain"
+    },
+    {
+      "name": "White Sand Ice Cream Shoppe",
+      "address": "12 Sandy Way",
+      "phone": "(928) 555-0147",
+      "websiteUrl": "http://whitesandicecream.nv",
+      "imageUrl": "images/ice-cream-shoppe.webp",
+      "membershipLvl": 2,
+      "angelAffiliated": "Yes – they bless each scoop, except the orange swirl",
+      "interdimensionalFootTraffic": "Moderate",
+      "governmentMonitoringLevel": "High",
+      "curseLevel": "Subtly enchanted",
+      "voidExposure": "Only trace amounts – still FDA adjacent"
+    }
+  ]
+}

@@ -25,9 +25,9 @@ const displayMembers = (members) => {
     const memberCard = document.createElement("div");
     memberCard.classList = "card";
 
-    const curseLevelSpan = `<span class="${
-      member.name === "Night Vale Dog Park Association" ? "redacted" : ""
-    }">${member.curseLevel}</span>`;
+    // const curseLevelSpan = `<span class="${
+    //   member.name === "Night Vale Dog Park Association" ? "redacted" : ""
+    // }">${member.curseLevel}</span>`;
 
     
 
@@ -39,7 +39,7 @@ const displayMembers = (members) => {
       <li><strong>Website:</strong><br>${member.websiteUrl}</li>
       <li><strong>Membership Level: </strong><br>${member.membershipLvl}</li>
       <li><strong>Government Monitoring: </strong><br>${member.governmentMonitoringLevel}</li>
-      <li><strong>Curse Level: </strong><br>${curseLevelSpan}</li>
+      <li><strong>Curse Level: </strong><br>${member.curseLevel}</li>
       </ul`;
     } else if(!listView) {
       
@@ -54,7 +54,7 @@ const displayMembers = (members) => {
     <p><strong>Membership Level: </strong><br>${member.membershipLvl}<br>
     
     <p><strong>Government Monitoring: </strong><br>${member.governmentMonitoringLevel}<br>
-    <p><strong>Curse Level: </strong><br>${curseLevelSpan}<br>
+    <p><strong>Curse Level: </strong><br>${member.curseLevel}<br>
     
     `;
     }

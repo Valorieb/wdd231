@@ -1,15 +1,17 @@
 const memberCards = document.getElementById("members");
 const toggle = document.getElementById("toggle");
+
+
 let listView = false;
 let memberData = [];
 
-
-
 async function getMemberData() {
+  console.log("getting member data");
   const response = await fetch("members.json");
   const data = await response.json();
   memberData = data.members;
   displayMembers(data.members);
+
 }
 toggle.addEventListener("change", () => {
   listView = toggle.checked;
@@ -18,9 +20,11 @@ toggle.addEventListener("change", () => {
   getMemberData();
 });
 
-const displayMembers = (members) => {
+
+
+function displayMembers (members){
   memberCards.innerHTML = "";
- 
+
   members.forEach((member) => {
     const memberCard = document.createElement("div");
     memberCard.classList = "card";
@@ -35,7 +39,6 @@ const displayMembers = (members) => {
       memberCard.innerHTML = `<ul><strong>${member.name}</strong>
       <li><strong>Address: </strong><br>${member.address}</li>
       <li><strong>Phone: </strong><br>${member.phone}</li>
-      <li><strong>Website:</strong><br>${member.websiteUrl}</li>
       <li><strong>Website:</strong><br>${member.websiteUrl}</li>
       <li><strong>Membership Level: </strong><br>${member.membershipLvl}</li>
       <li><strong>Government Monitoring: </strong><br>${member.governmentMonitoringLevel}</li>

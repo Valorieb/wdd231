@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The directory for the Night Vale chamber of commerce site">
     <meta name="author" content="Valorie Broderick">
-    <title>Night Vale Chamber of Commerce Members Directory</title>
+    <title>Home</title>
 
     <meta property="og:title" content="Night Vale Chamber of Commerce Members Directory">
     <meta property="og:description" content="Night Vale Chamber of Commerce Directory page">
@@ -18,15 +18,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ranchers&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="styles/normalize.css" >
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/base.css" >
+
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
     <link rel="stylesheet" href="styles/base-large.css">
     
     <script src="scripts/nav.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <link rel="icon" href="favicon.ico">
     
 </head>
@@ -43,26 +46,74 @@
             <nav>
                 <button id="myButton" aria-label="menu"></button>
                 <ul class="menuLinks">
-                    <li><a href="index.html" title="Home">Home</a></li>
-                    <li class="current-menu-item"><a href="#" title="Directory">Directory</a></li>
+                    <li class="current-menu-item"><a href="#" title="Home">Home</a></li>
+                    <li ><a href="directory.html" title="Directory">Directory</a></li>
                     <li><a href="#" title="Join">Join</a></li>
                     <li><a href="#" title="Discover">Discover</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="hero-img">
+            <picture>
+                <source srcset="images/night-vale-hero.webp" media="(min-width: 920px)">
+                <img src="images/nightvale-town-purple-square.webp" alt="Nightvale" height="500">
+            </picture>
+           
+            <!-- <img class="glow-cloud" src="images/glow-cloud.webp" alt="glow cloud" width="500" height="500"> -->
+            
+        </div>
     </header>
     <main>
-        <h1>Night Vale Chamber of Commerce Members Directory</h1>
-        <label class="toggle-switch">
-            <input type="checkbox" id="toggle">
-            <span class="toggle-label card-toggle-text">Card View</span>
+        <h1>Home</h1>
+        <div class="cards-container">
+        <div class="about">
+            <h2>About Night Vale</h2>
+            <p>Founded on Principles of
+                <ul>
+                    <li>Family</li>
+                    <li>Fortitude</li>
+                    <li>Fence building &</li>
+                    <li>Friendly propaganda</li>
+                </ul>  <br> Our town motto is: <br> <br>
+                <i>We have nothing to fear except ourselves. We are unholy, awful people. Fear ourselves with silence. Look down Night Vale. Look down and forget what you’ve done.</i>
+            </p>
+        </div>
+            <div>
+                <h2>Events</h2>
+            <ul>
+                <li>🏈 Scorpians Football Game</li>
+                <li>🎟️ Lottery </li>
+                <li>🍦 Food Truck Festival (Now with veal ice cream!)</li>
+                <li>🌎 Air-filled Earth Society Meeting</li>
+                <li>🎵Annual Sorrow Songs Sing Along and Potluck</li>
+                <li>🎉 Party at 3am -3:05am at abandoned missile silo outside of town</li>
+            </ul>
+
+            </div>
             
-            <span>|</span>
-            <span class="toggle-label list-toggle-text">List View</span>
+            <div>
+                <h2>Weather</h2>
+                <p>The current temperature in Night Vale is <br> <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div>
+                <h2>Weather Forcast</h2>
+                <p>Today: <span id="today-temp"></span></p>
+                <p><span id="tomorrow-temp"></span></p>
+                <p><span id="third-day-temp"></span></p>
+            </div> 
+        </div>
+        <div class="spotlight-container">
+            <div>
+                <h2>Spotlight</h2>
+                <span id="spotlight"></span>
+            </div>
+        </div> 
             
-            <span class="slider"></span>
-          </label>
-        <span id="members"></span>
+        
     </main>
     <footer>
         <div class="address">
@@ -92,3 +143,5 @@
     
 </body>
 </html>
+
+<!-- Events Lottery, Food Truck Festival E.1-8, NightVale Scorpians Football, Air-filled Earth society meeting -->

@@ -1,0 +1,23 @@
+@media (min-width: 619px) {
+
+    .hero-img{
+        display: flex;
+        width: auto;
+        height: 500px;
+       justify-content: center;
+
+    }
+
+    picture img{
+        width: auto;
+        height: 500px;
+    }
+
+    .glow-cloud{
+        width:500px;
+        height: 500px;
+    }
+   
+
+
+}

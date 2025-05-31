@@ -1,0 +1,9 @@
+@media (min-width: 619px){
+    .join-container {
+        display: flex;
+        justify-content: center;
+      }
+
+
+}
+

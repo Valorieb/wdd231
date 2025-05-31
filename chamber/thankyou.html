@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join form for Night Vale Chamber of Commerce">
+    <meta name="author" content="Valorie Broderick">
+    <title>Join</title>
+
+    <meta property="og:title" content="Night Vale Chamber of Commerce join page">
+    <meta property="og:description" content="Night Vale Chamber of Commerce join page">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Valorie+Broderick+WDD231">
+    <meta property="og:url" content="https://valorieb.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ranchers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/join.css" >
+
+    
+    <link rel="stylesheet" href="styles/base-large.css">
+    
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/night-vale-logo.webp" alt="Night Vale logo" width="100" height="100">
+                <div class="name">
+                    <h1>Night Vale</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <nav>
+                <button id="myButton" aria-label="menu"></button>
+                <ul class="menuLinks">
+                    <li ><a href="index.html" title="Home">Home</a></li>
+                    <li ><a href="directory.html" title="Directory">Directory</a></li>
+                    <li class="current-menu-item"><a href="join.html" title="Join">Join</a></li>
+                    <li><a href="discover.html" title="Discover">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <h2>Thank you for joining!</h2>
+        <p><strong>First name: </strong> <span id="displayFname"></span></p>
+        <p><strong>Last name: </strong> <span id="displayLname"></span></p>
+        <p><strong>Role: </strong> <span id="displayRole"></span></p>
+        <p><strong>Email: </strong> <span id="displayEmail"></span></p>
+        <p><strong>Mobile number: </strong> <span id="displayCell"></span></p>
+        <p><strong>Organization: </strong> <span id="displayOrg"></span></p>
+
+        
+    </main>
+    <footer>
+        <span id="footer-content"></span>
+      <span id="lastModified"></span>
+    </footer>
+    
+</body>
+</html>

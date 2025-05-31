@@ -6,20 +6,12 @@ h2{
     width: 300px;
     margin: 0 auto;
 }
-header{
-    background-color: #3a3b89;
-}
+
 
 body{
-    margin: 0;
-    padding: 0;
+    
     max-width: 100%;
     overflow-x: hidden;
-    background: radial-gradient(circle, rgb(144, 6, 144),rgb(57, 1, 57));
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:white;
 }
 
 main{

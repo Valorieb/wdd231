@@ -70,6 +70,7 @@ const courses = [
 const courseCard = document.getElementById("courses");
 const buttons = document.getElementById("buttons");
 const credits = document.getElementById("credits");
+const dialogBox = document.getElementById("course-description");
 
 const allButton = document.createElement("button");
 const cseButton = document.createElement("button");
@@ -77,8 +78,6 @@ const wddButton = document.createElement("button");
 
 const courseList = document.createElement("ul");
 courseCard.appendChild(courseList);
-
-
 
 buttons.appendChild(allButton);
 buttons.appendChild(cseButton);
@@ -123,11 +122,54 @@ allButton.addEventListener("click", (event) => {
 function displayCourses(courses) {
   courses.forEach((course) => {
     const subject = course.subject;
+    const number = course.number;
     const title = course.title;
     const completed = course.completed;
+
+    const description = course.description;
+    
     const listItem = document.createElement("li");
 
-    listItem.innerHTML = `${subject} ${title}`;
+    listItem.innerHTML = `${subject} ${number} ${title}`;
+
+    listItem.addEventListener("click", () =>{
+      dialogBox.innerHTML = ""; 
+      const closeButton = document.createElement("button");
+      closeButton.classList.add("close-button");
+      closeButton.innerText = "❌";
+      
+      const content = document.createElement("div");
+      content.innerHTML = `<strong>${subject} ${number} ${title}</strong> <br>Credits: ${course.credits}<br> ${description}<br>Technology: ${course.technology}`;
+      
+      dialogBox.appendChild(closeButton);
+      dialogBox.appendChild(content);
+
+      dialogBox.showModal();
+      dialogBox.focus();
+
+      closeButton.addEventListener("click", () => {
+        dialogBox.close();
+      });
+
+      dialogBox.addEventListener(
+        "click",
+        (event) => {
+          const rect = dialogBox.getBoundingClientRect();
+          const clickedInDialog =
+            event.clientX >= rect.left &&
+            event.clientX <= rect.right &&
+            event.clientY >= rect.top &&
+            event.clientY <= rect.bottom;
+
+          if (!clickedInDialog) {
+            dialogBox.close();
+          }
+        },
+        { once: true }
+      );
+    });
+
+
 
     if (completed) {
       listItem.style.color = "white";

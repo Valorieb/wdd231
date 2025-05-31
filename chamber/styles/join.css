@@ -1,0 +1,117 @@
+h2 {
+  text-align: center;
+}
+
+h3 {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+label,
+input,
+select,
+textarea,
+button {
+  margin: 20px;
+  padding: 5px;
+}
+
+label.required::after {
+    content: " *️⃣";
+    font-size: 20px;
+  }
+
+.join-container {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  width: 100px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(184, 182, 182, 0.15);
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+  border: solid 1px palevioletred;
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 60px palevioletred, 0 0 100px palevioletred;
+  animation:none;
+  border: solid 2px palevioletred;
+
+}
+
+.close-btn {
+    width: 45px;
+    height: 45px;
+    animation:none;
+}
+
+.close-btn:hover {
+    box-shadow: 0 0 5px palevioletred, 0 0 10px palevioletred;
+
+}
+
+.membershipBttn {
+
+    margin:20px auto;
+    width: 200px;
+    height: 45px;
+    animation: none;
+}
+
+.membershipBttn:hover {
+    box-shadow: 0 0 5px palevioletred, 0 0 10px palevioletred;
+
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 50px palevioletred;
+  }
+  100% {
+    box-shadow: 0 0 10px palevioletred;
+  }
+}
+
+.lvl-card {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    list-style-type: none;
+    border-radius: 10px;
+    transform: scale(0);
+    animation: popIn 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#roleError {
+    padding: 20px;
+    color: rgb(247, 255, 176);
+}
+
+
+
+@keyframes popIn {
+    to {
+      transform: scale(1);
+    }
+  }

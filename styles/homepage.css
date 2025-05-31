@@ -51,6 +51,34 @@ header {
   width:auto;
 }
 
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  dialog {
+    position: relative;
+    padding: 5rem 1.5rem 1.5rem 1.5rem; 
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+.close-button{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 44px;
+}
+
+.close-button:focus-visible {
+    outline: 2px solid #ff4d4d;
+  }
+
 .container{
     display:block;
 }
@@ -161,6 +189,10 @@ nav.show {
 
 #menu.show::before {
   content: "x";
+}
+
+#course-description{
+    max-width: 500px;
 }
 
 

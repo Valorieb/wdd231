@@ -1,0 +1,64 @@
+@media (min-width:1025px){
+    .card {
+        width: 400px;
+        height: auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .card-ul {
+        display: grid;
+        grid-template-areas:
+          "name"
+          "photo"
+          "description"
+          "location"
+          "button";
+        gap: 1rem;
+        justify-items: center;
+        padding: 20px;
+      }
+      
+      .card-ul li.description {
+        grid-area: description;
+      }
+      .card-ul li.name {
+        grid-area: name;
+      }
+      .card-ul li.photo {
+        grid-area: photo;
+      }
+      .card-ul li.location {
+        grid-area: location;
+      }
+      .card-ul li.button {
+        grid-area: button;
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
+      }
+      
+      .card img {
+        height: auto;
+        width: 300px;
+      }
+      
+      .card li {
+        list-style: none;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+      
+      #destinations {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(490px, 1fr));
+        gap: 1rem;
+        margin: 20px auto;
+        max-width: 1055px;
+        justify-items: center;
+        padding: 20px;
+      }
+      
+}

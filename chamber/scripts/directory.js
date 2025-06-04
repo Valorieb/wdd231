@@ -1,7 +1,6 @@
 const memberCards = document.getElementById("members");
 const toggle = document.getElementById("toggle");
 
-
 let listView = false;
 let memberData = [];
 
@@ -11,7 +10,6 @@ async function getMemberData() {
   const data = await response.json();
   memberData = data.members;
   displayMembers(data.members);
-
 }
 toggle.addEventListener("change", () => {
   listView = toggle.checked;
@@ -20,9 +18,7 @@ toggle.addEventListener("change", () => {
   getMemberData();
 });
 
-
-
-function displayMembers (members){
+function displayMembers(members) {
   memberCards.innerHTML = "";
 
   members.forEach((member) => {
@@ -33,8 +29,6 @@ function displayMembers (members){
     //   member.name === "Night Vale Dog Park Association" ? "redacted" : ""
     // }">${member.curseLevel}</span>`;
 
-    
-
     if (listView) {
       memberCard.innerHTML = `<ul><strong>${member.name}</strong>
       <li><strong>Address: </strong><br>${member.address}</li>
@@ -44,8 +38,7 @@ function displayMembers (members){
       <li><strong>Government Monitoring: </strong><br>${member.governmentMonitoringLevel}</li>
       <li><strong>Curse Level: </strong><br>${member.curseLevel}</li>
       </ul`;
-    } else if(!listView) {
-      
+    } else if (!listView) {
       memberCard.innerHTML = `
     <h2>${member.name}</h2>
     <img src="${member.imageUrl}" alt="${member.name} logo" width="150" height="150">
@@ -63,6 +56,6 @@ function displayMembers (members){
     }
     memberCards.appendChild(memberCard);
   });
-};
+}
 
 getMemberData();

@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Join form for Night Vale Chamber of Commerce"
+      content="Discover page for Night Vale Chamber of Commerce"
     />
     <meta name="author" content="Valorie Broderick" />
-    <title>Night Vale Chamber of Commerce Join Page</title>
+    <title>Night Vale Chamber of Commerce discover Page</title>
 
     <meta
       property="og:title"
-      content="Night Vale Chamber of Commerce join page"
+      content="Night Vale Chamber of Commerce discover page"
     />
     <meta
       property="og:description"
-      content="Night Vale Chamber of Commerce join page"
+      content="Night Vale Chamber of Commerce discover page"
     />
     <meta
       property="og:image"
@@ -38,14 +38,15 @@
 
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/join.css" />
-    <link rel="stylesheet" href="styles/join-large.css" />
+    <link rel="stylesheet" href="styles/discover.css" />
+    <link rel="stylesheet" href="styles/discover-medium.css" />
+    <link rel="stylesheet" href="styles/discover-large.css" />
 
     <link rel="stylesheet" href="styles/base-large.css" />
 
     <script src="scripts/nav.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <link rel="icon" href="favicon.ico" />
   </head>
   <body>
@@ -68,79 +69,18 @@
           <ul class="menuLinks">
             <li><a href="index.html" title="Home">Home</a></li>
             <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li> 
+              <a href="join.html" title="Join">Join</a></li>
             <li class="current-menu-item">
-              <a href="join.html" title="Join">Join</a>
-            </li>
-            <li><a href="discover.html" title="Discover">Discover</a></li>
+                <a href="discover.html"  title="Discover">Discover </a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <h2>Join Us</h2>
-      <div class="join-container">
-        <div class="form-container">
-          <h3>Membership Application Form</h3>
-          <form action="thankyou.html" method="get" id="join-form">
-            <label for="fname" class="required">First name:</label><br />
-            <input type="text" id="fname" name="fname" required /><br />
-
-            <label for="lname" class="required">Last name:</label><br />
-            <input type="text" id="lname" name="lname" required /><br />
-
-            <label for="role" class="required">Your role:</label><br />
-            <input type="text" id="role" name="role" required /><br />
-            <div id="roleError"></div>
-
-            <label for="email" class="required">Email:</label><br />
-            <input type="email" id="email" name="email" required /><br />
-
-            <label for="cell" class="required">Cell phone:</label><br />
-            <input type="tel" id="cell" name="cell" required /><br />
-
-            <label for="organization" class="required">Organization:</label
-            ><br />
-            <input
-              type="text"
-              id="organization"
-              name="organization"
-              required
-            /><br />
-
-            <label for="membership">Membership level:</label><br />
-            <select id="membership" name="membership">
-              <option value="select">Select</option>
-              <option value="gold">Gold</option>
-              <option value="silver">Silver</option>
-              <option value="bronze">Bronze</option>
-              <option value="nonprofit">NP membership</option>
-            </select>
-            <br />
-
-            <label for="description">Describe your business:</label><br />
-            <textarea
-              id="description"
-              name="description"
-              rows="5"
-              cols="30"
-            ></textarea
-            ><br />
-            <input
-              type="hidden"
-              name="form_loaded_time"
-              id="form_loaded_time"
-            />
-            <p>Form loaded at: <span id="display_time"></span></p>
-
-            <button type="submit">Join</button>
-          </form>
-        </div>
-
-        <div class="membership-container">
-          <h3>Membership Levels</h3>
-          <span id="membership-lvl-cards"></span>
-        </div>
-      </div>
+        <h1>Discover Night Vale</h1>
+        <span id="destinations"></span>
+      
     </main>
     <footer>
       <div class="address">

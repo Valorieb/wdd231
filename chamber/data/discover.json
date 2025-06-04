@@ -1,0 +1,52 @@
+{
+  "destinations": [
+    {
+      "name": "Radon Canyon",
+      "address": "Route 800, Mile Marker 40",
+      "description": "The area features nature trails, mysterious lead-plated doors, and unexplainable lights and sounds. The view is literally breathtaking.",
+      "imgURL": "images/radon-canyon.webp"
+    },
+    {
+      "name": "Handful of Dust",
+      "address": "Literally everywhere",
+      "description": "Behold! It is dust. About a handful of it (of a small to medium man's hand, not a large man's hand, but perhaps a large woman's and maybe even a very large woman's). Wow! Please come visit. Please. Please. Please. Please. Please.",
+      "imgURL": "images/dust.webp"
+    },
+    {
+      "name": "Hole in the Vacant Lot Out Back of Ralph's",
+      "address": "37 Earl Road",
+      "description": "Come here and nestle with us. Nestle with us for the low-low price. Act today. Or tomorrow. Not Wednesday.",
+      "imgURL": "images/hole.jpg"
+    },
+    {
+      "name": "Monolith",
+      "address": "In front of City Hall",
+      "description": "A controversial monolith with indifferent geometry and a long sharp shadow. It appeared mysteriously before Christmas. An ominous construction, channeling ancient powers and long-dead gods",
+      "imgURL": "images/monolith.webp"
+    },
+    {
+      "name": "Hysteria Land",
+      "address": "144 Desert Elm Drive",
+      "description": "Not an amusement park. A theme park. The theme of the park is amusement. At the same time, each ride is designed to remind you of the horrors of living.",
+      "imgURL": "images/hysteria-land.webp"
+    },
+    {
+      "name": "Museum of Forbidden Technologies",
+      "address": "6 Galloway Road",
+      "description": "A museum featuring numerous exhibits, all of which are covered in thick burlap at all times, with explanatory plaques completely blacked out with permanent marker. Featuring several time machines that have not been invented yet.",
+      "imgURL": "images/museum.webp"
+    },
+    {
+      "name": "Night Vale Petting Zoo",
+      "address": "000 Unnamed Road",
+      "description": "A safe attraction. No ritualistic disembowelments are used to feed the emaciated wolves. Just enjoy. Please do not ask questions about the emaciated wolves nor disturb them while they devour bunnies. Family friendly fun!",
+      "imgURL": "images/monster.webp"
+    },
+    {
+      "name": "Moonlite All-Nite Diner",
+      "address": "324 Ouroboros Rd",
+      "description": "With food that sounds good only late at night, the Moonlite All-Nite Diner is a glass box of bad food and good people!",
+      "imgURL": "images/moonlite-all-nite-diner.webp"
+    }
+  ]
+}

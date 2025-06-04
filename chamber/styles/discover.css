@@ -1,0 +1,59 @@
+.card {
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.card-ul {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "photo"
+    "description"
+    "location"
+    "button";
+  gap: 1rem;
+  justify-items: center;
+  padding: 5px;
+}
+
+.card-ul li.description {
+  grid-area: description;
+}
+.card-ul li.name {
+  grid-area: name;
+}
+.card-ul li.photo {
+  grid-area: photo;
+}
+.card-ul li.location {
+  grid-area: location;
+}
+.card-ul li.button {
+  grid-area: button;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.card img {
+  height: auto;
+  width: 300px;
+}
+
+.card li {
+  list-style: none;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+#destinations {
+  display: block;
+  margin: 10px auto;
+  max-width: 1055px;
+  justify-items: center;
+  padding: 5px;
+}

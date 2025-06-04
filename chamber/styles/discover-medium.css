@@ -1,5 +1,6 @@
 @media (min-width:641px) and (max-width:1024px){
     .card-ul {
+        display: grid;
         grid-template-columns: minmax(280px, 300px) 1fr;
         grid-template-areas:
           "photo name"
@@ -9,6 +10,25 @@
         justify-items:start;
         align-items: start;
         word-break: break-word;
+      }
+
+      .card-ul li.description {
+        grid-area: description;
+      }
+      .card-ul li.name {
+        grid-area: name;
+      }
+      .card-ul li.photo {
+        grid-area: photo;
+      }
+      .card-ul li.location {
+        grid-area: location;
+      }
+      .card-ul li.button {
+        grid-area: button;
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
       }
 
       .card {
@@ -21,6 +41,8 @@
 
       .card-ul li {
         width: 100%;
+        display: flex;
+        justify-content: center;
       }
 
 

@@ -3,7 +3,6 @@ let destinationData = [];
 
 
 async function getDestinationData(){
-    console.log("getting destination data");
     const response = await fetch("data/discover.json");
     const data = await response.json();
     destinationData = data.destinations;
@@ -45,4 +44,39 @@ function displayDestinations(destinations){
 
     });
 }
-getDestinationData(destinations);
+getDestinationData();
+
+// ------------------Date Code------------------
+
+const visits = document.getElementById("visits");
+const message = document.createElement("p");
+visits.appendChild(message);
+
+const storedString = localStorage.getItem("lastVisit");
+const lastVisit = new Date();
+const lastVisitDate = new Date(storedString);
+
+const thisDay = new Date();
+console.log(`today: ${thisDay}`);
+
+const msPerDay = 1000 * 60 * 60 * 24;
+
+const daysPassed = Math.floor((thisDay - lastVisitDate) / msPerDay);
+
+if(storedString == null){
+    const firstVisit = new Date();
+    localStorage.setItem("lastVisit", lastVisit.toISOString());
+    message.innerHTML ="Welcome! Let us know if you have any questions.";
+    
+}else if(daysPassed < 1){
+    
+    console.log(`Days since last visit: ${daysPassed}`);
+    message.innerHTML = "Back so soon! Awesome!";
+
+}else{
+    message.innerHTML = `You last visited ${daysPassed} days ago`;
+}
+
+console.log(`last visit: ${storedString}`);
+
+

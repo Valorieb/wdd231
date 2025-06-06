@@ -1,21 +1,36 @@
 .card {
+  display: block;
+  padding:1em;
+  box-sizing: border-box;
+  margin: 10px auto;
   width: 300px;
+  height: auto;
+}
+
+.card ul {
+    text-align: center;
+    padding: 0;
 }
 
 .card img {
+  display: block;
   height: auto;
-  width: 300px;
+  width: 180px;
+  margin: 0 auto;
 }
 
 .card li {
   list-style: none;
-
+  text-align: center;
 }
 
 #destinations {
   display: block;
-  margin: 10px auto;
-  max-width: 1055px;
-  justify-items: center;
+  margin: 0 auto;
+  max-width: 310px;
   padding: 5px;
+}
+
+#visits{
+    text-align: center;
 }

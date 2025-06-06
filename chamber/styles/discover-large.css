@@ -20,18 +20,6 @@
         padding: 20px;
       }
       
-      .card-ul li.description {
-        grid-area: description;
-      }
-      .card-ul li.name {
-        grid-area: name;
-      }
-      .card-ul li.photo {
-        grid-area: photo;
-      }
-      .card-ul li.location {
-        grid-area: location;
-      }
       .card-ul li.button {
         grid-area: button;
         width: 300px;

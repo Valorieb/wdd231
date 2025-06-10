@@ -1,3 +1,7 @@
+h2 {
+  text-align: center;
+  padding:10px;
+}
 .card {
   display: block;
   padding:1em;
@@ -22,6 +26,12 @@
 .card li {
   list-style: none;
   text-align: center;
+}
+
+.map{
+  display: block;
+  width: 250px;
+  margin: 0 auto;
 }
 
 #destinations {

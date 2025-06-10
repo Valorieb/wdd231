@@ -24,7 +24,7 @@ function displayDestinations(destinations){
             </li>
             <li class="photo">
                 <figure>
-                    <img src="${destination.imgURL}" alt="${destination.name}">
+                    <img src="${destination.imgURL}" alt="${destination.name} loading="lazy">
                 </figure>
             </li>
             

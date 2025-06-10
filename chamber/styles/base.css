@@ -98,6 +98,13 @@ ul.menuLinks.open {
   padding: 10px;
 }
 
+.name p {
+  padding: 0;
+  margin: 0;
+  font-size: x-large;
+  font-weight: 400;
+}
+
 nav {
   margin-left: auto;
   padding: 10px;

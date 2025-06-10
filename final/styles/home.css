@@ -1,0 +1,50 @@
+main {
+  width: 1000px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.main-container {
+  background-color: #fff8e8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.features div {
+  padding: 10px;
+  margin: 5px;
+  background-color: #aab396;
+  color: #333333;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(60, 50, 30, 0.08),
+    0 6px 12px rgba(60, 50, 30, 0.06);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  width: 1000px;
+  height: auto;
+}
+
+.welcome-blurb {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}

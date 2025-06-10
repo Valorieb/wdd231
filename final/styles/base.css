@@ -1,0 +1,118 @@
+body {
+    color: #674636;
+    background-color: #F7EED3;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button {
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  /* button:hover{
+
+  } */
+
+  .logo img{
+    width: 100px;
+  }
+  
+  h1 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header{
+    background-color: #FFF8E8;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .header-container{
+    display: flex;
+    padding: 20px;
+  }
+
+  .header-container img{
+    padding:10px;
+    width: 100px;
+    height: auto;
+  }
+
+  .header-container h1, h2{
+    padding: 0;
+    margin:0;
+  }
+  
+  main {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+  }
+
+  nav {
+    margin-left: auto;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav li a {
+    padding: 10px;
+    display: block;
+  }
+
+  ul.menuLinks {
+    display: none;
+  }
+  
+  ul.menuLinks.open {
+    display: block;
+  }
+  
+
+  .active{
+    background-color: rgba(62, 61, 61, 0.2);
+    color:#3a2e27;
+  }
+
+  footer{
+    text-align: center;
+    padding:20px;
+
+  }
+
+  #myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem 2vw;
+    align-self: flex-start;
+  }
+  
+  #myButton::before {
+    content: "\2630";
+    color:#674636;
+  }
+  
+  #myButton.open::before {
+    content: "x";
+  }
+
+  

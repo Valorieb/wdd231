@@ -1,0 +1,43 @@
+@media(min-width: 920px){
+    #myButton{
+        display: none;
+      }
+      header {
+        display: flex;
+      }
+      nav{
+        margin-left: auto;
+        display: flex;
+      }
+    
+    
+      nav ul{
+        display: flex;
+        list-style-type: none;
+        padding: 20px;
+        justify-content: end;
+      }
+
+      ul.menuLinks,
+      ul.menuLinks.open {
+        display: flex;
+      }
+    
+      
+    
+      nav li{
+        padding: 10px;
+      }
+    
+      nav a{
+        text-decoration: none;
+        color:#674636;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    
+      nav a:hover{
+        background-color: rgba(170, 179, 150, 0.2);
+        
+      }
+}

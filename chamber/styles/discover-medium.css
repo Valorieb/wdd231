@@ -25,6 +25,9 @@
     height: 45px;
     border-radius: 10px;
   }
+  .map{
+    width: 600px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
@@ -41,11 +44,7 @@
     word-break: break-word;
   }
 
-  .map{
-    display: block;
-    width: 600px;
-    margin: 0 auto;
-  }
+
 
 
   .card {

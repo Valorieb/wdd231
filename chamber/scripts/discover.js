@@ -1,30 +1,29 @@
 const destinationCards = document.getElementById("destinations");
 let destinationData = [];
 
-
-async function getDestinationData(){
-    const response = await fetch("data/discover.json");
-    const data = await response.json();
-    destinationData = data.destinations;
-    displayDestinations(destinationData);
+async function getDestinationData() {
+  const response = await fetch("data/discover.json");
+  const data = await response.json();
+  destinationData = data.destinations;
+  displayDestinations(destinationData);
 }
 
-function displayDestinations(destinations){
-    destinationCards.innerHTML = "";
+function displayDestinations(destinations) {
+  destinationCards.innerHTML = "";
 
-    destinations.forEach((destination)=>{
-        const destinationCard = document.createElement("div");
-        // destinationCard.classList.add("discover-card");
-        destinationCard.classList.add("card");
+  destinations.forEach((destination) => {
+    const destinationCard = document.createElement("div");
+    // destinationCard.classList.add("discover-card");
+    destinationCard.classList.add("card");
 
-        destinationCard.innerHTML = `
+    destinationCard.innerHTML = `
         <ul class="card-ul">
             <li class="name">
                 <h2>${destination.name}</h2>
             </li>
             <li class="photo">
                 <figure>
-                    <img src="${destination.imgURL}" alt="${destination.name} loading="lazy">
+                    <img src="${destination.imgURL}" alt="${destination.name}" loading="lazy">
                 </figure>
             </li>
             
@@ -40,9 +39,8 @@ function displayDestinations(destinations){
                 <button type="button">Learn more</button>
             </li>
         </ul>`;
-        destinationCards.appendChild(destinationCard);
-
-    });
+    destinationCards.appendChild(destinationCard);
+  });
 }
 getDestinationData();
 
@@ -63,20 +61,15 @@ const msPerDay = 1000 * 60 * 60 * 24;
 
 const daysPassed = Math.floor((thisDay - lastVisitDate) / msPerDay);
 
-if(storedString == null){
-    const firstVisit = new Date();
-    localStorage.setItem("lastVisit", lastVisit.toISOString());
-    message.innerHTML ="Welcome! Let us know if you have any questions.";
-    
-}else if(daysPassed < 1){
-    
-    console.log(`Days since last visit: ${daysPassed}`);
-    message.innerHTML = "Back so soon! Awesome!";
-
-}else{
-    message.innerHTML = `You last visited ${daysPassed} days ago`;
+if (storedString == null) {
+  const firstVisit = new Date();
+  localStorage.setItem("lastVisit", lastVisit.toISOString());
+  message.innerHTML = "Welcome! Let us know if you have any questions.";
+} else if (daysPassed < 1) {
+  console.log(`Days since last visit: ${daysPassed}`);
+  message.innerHTML = "Back so soon! Awesome!";
+} else {
+  message.innerHTML = `You last visited ${daysPassed} days ago`;
 }
 
 console.log(`last visit: ${storedString}`);
-
-

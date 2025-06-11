@@ -1,9 +1,4 @@
-main {
-  width: 1000px;
-  text-align: center;
-  padding: 20px;
 
-}
 
 .main-container {
   background-color: #fff8e8;
@@ -12,9 +7,16 @@ main {
 }
 
 .features {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
   padding: 20px;
+}
+
+.features img{
+  width: 150px;
+  height: auto;
 }
 
 .features div {
@@ -31,20 +33,20 @@ main {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
+  display: block;
   padding: 20px;
 }
 
 .hero img {
   max-width: 100%;
-  width: 1000px;
+  width: 400px;
   height: auto;
 }
 
 .welcome-blurb {
-  width: 400px;
+  width: 250px;
+  text-align: center;
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  padding: 5px;
 }

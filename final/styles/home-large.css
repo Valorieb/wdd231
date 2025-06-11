@@ -1,0 +1,30 @@
+@media(min-width:1025px){
+
+    .features {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      .features img {
+        width: 250px;
+        padding: 20px;
+      }
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+    
+    .hero img {
+        width: 1000px;
+      }
+
+
+      .welcome-blurb {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+      }
+}

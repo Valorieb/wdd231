@@ -1,0 +1,34 @@
+@media (min-width: 641px) and (max-width: 1024px){
+
+
+      .welcome-blurb {
+        width: 400px;
+        padding: 20px;
+      }
+
+      .features {
+        display: block;
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .features img {
+        width: 250px;
+        padding: 20px;
+      }
+      
+      .features div {
+        padding: 10px;
+        margin: 5px;
+        background-color: #aab396;
+        color: #333333;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(60, 50, 30, 0.08),
+          0 6px 12px rgba(60, 50, 30, 0.06);
+      }
+}

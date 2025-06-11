@@ -1,0 +1,312 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Tomato Basil Pasta",
+      "description": "A fresh and easy summer pasta using garden tomatoes and basil.",
+      "imgURL": "images/tomato-basil-pasta.webp",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "amount": "2 cups, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Basil",
+          "amount": "1/4 cup, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Pasta", "amount": "8 oz", "canGrow": false },
+        { "name": "Olive Oil", "amount": "2 tbsp", "canGrow": false },
+        { "name": "Salt", "amount": "to taste", "canGrow": false }
+      ],
+      "instructions": [
+        "Cook the pasta according to package directions.",
+        "In a pan, heat olive oil and add tomatoes. Cook until soft.",
+        "Add chopped basil and salt.",
+        "Toss in the cooked pasta and serve warm."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Zucchini Fritters",
+      "description": "Crispy fritters made with fresh garden zucchini.",
+      "imgURL": "images/zucchini-fritters.webp",
+      "ingredients": [
+        {
+          "name": "Zucchini",
+          "amount": "2 cups, grated",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Egg", "amount": "2 large", "canGrow": false },
+        { "name": "Flour", "amount": "1/2 cup", "canGrow": false },
+        {
+          "name": "Green Onion",
+          "amount": "1/4 cup, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Salt", "amount": "1/2 tsp", "canGrow": false }
+      ],
+      "instructions": [
+        "Grate the zucchini and squeeze out excess moisture.",
+        "Mix with eggs, flour, green onions, and salt.",
+        "Heat oil in a skillet and fry spoonfuls until golden brown on both sides."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Carrot Ginger Soup",
+      "description": "A comforting soup with sweet carrots and zingy ginger.",
+      "imgURL": "images/carrot-ginger-soup.webp",
+      "ingredients": [
+        {
+          "name": "Carrot",
+          "amount": "4 cups, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Ginger",
+          "amount": "1 tbsp, grated",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Onion",
+          "amount": "1 medium, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Vegetable Broth", "amount": "4 cups", "canGrow": false },
+        { "name": "Olive Oil", "amount": "1 tbsp", "canGrow": false }
+      ],
+      "instructions": [
+        "Sauté onion and ginger in olive oil.",
+        "Add carrots and broth. Simmer until carrots are soft.",
+        "Blend until smooth and serve hot."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Cucumber Mint Salad",
+      "description": "A cool, crisp salad perfect for hot days.",
+      "imgURL": "images/cucumber-salad.webp",
+      "ingredients": [
+        {
+          "name": "Cucumber",
+          "amount": "2 cups, sliced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Mint",
+          "amount": "2 tbsp, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Lemon Juice", "amount": "2 tbsp", "canGrow": false },
+        { "name": "Salt", "amount": "to taste", "canGrow": false }
+      ],
+      "instructions": [
+        "Slice cucumbers and chop mint.",
+        "Toss together with lemon juice and salt.",
+        "Chill before serving."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Stuffed Bell Peppers",
+      "description": "Bell peppers stuffed with a savory rice and veggie mix.",
+      "imgURL": "images/stuffed-peppers.webp",
+      "ingredients": [
+        {
+          "name": "Bell Pepper",
+          "amount": "4 whole",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Rice", "amount": "2 cups, cooked", "canGrow": false },
+        {
+          "name": "Tomato",
+          "amount": "1 cup, diced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Corn",
+          "amount": "1/2 cup",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Onion",
+          "amount": "1/2 cup, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 375°F.",
+        "Cut tops off peppers and remove seeds.",
+        "Mix rice with tomatoes, corn, and onion.",
+        "Stuff peppers and bake for 25 minutes."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Spinach Mushroom Quesadillas",
+      "description": "Quick vegetarian quesadillas with garden greens.",
+      "imgURL": "images/quesadilla.webp",
+      "ingredients": [
+        {
+          "name": "Spinach",
+          "amount": "2 cups, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Mushroom", "amount": "1 cup, sliced", "canGrow": false },
+        {
+          "name": "Cheddar Cheese",
+          "amount": "1 cup, shredded",
+          "canGrow": false
+        },
+        { "name": "Tortilla", "amount": "4 large", "canGrow": false }
+      ],
+      "instructions": [
+        "Sauté mushrooms and spinach.",
+        "Place filling and cheese on tortillas, fold in half.",
+        "Cook in skillet until golden and cheese is melted."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Herb Roasted Potatoes",
+      "description": "Crispy baby potatoes tossed with fresh herbs.",
+      "imgURL": "images/potatoes.webp",
+      "ingredients": [
+        {
+          "name": "Potato",
+          "amount": "3 cups, quartered",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Rosemary",
+          "amount": "1 tbsp, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Thyme",
+          "amount": "1 tsp, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Olive Oil", "amount": "2 tbsp", "canGrow": false },
+        { "name": "Salt", "amount": "to taste", "canGrow": false }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F.",
+        "Toss potatoes with herbs, salt, and olive oil.",
+        "Roast on a baking sheet for 30–40 minutes until crispy."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Beet and Goat Cheese Salad",
+      "description": "Earthy beets paired with creamy cheese and greens.",
+      "imgURL": "images/beet-salad.webp",
+      "ingredients": [
+        {
+          "name": "Beet",
+          "amount": "2 cups, roasted and sliced",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Arugula",
+          "amount": "3 cups",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Goat Cheese",
+          "amount": "1/2 cup, crumbled",
+          "canGrow": false
+        },
+        { "name": "Walnuts", "amount": "1/4 cup, chopped", "canGrow": false },
+        { "name": "Balsamic Vinaigrette", "amount": "3 tbsp", "canGrow": false }
+      ],
+      "instructions": [
+        "Roast and slice beets.",
+        "Toss with arugula, goat cheese, and walnuts.",
+        "Drizzle with vinaigrette and serve."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Pea and Mint Risotto",
+      "description": "A creamy spring risotto with garden peas and mint.",
+      "imgURL": "images/risotto.webp",
+      "ingredients": [
+        {
+          "name": "Peas",
+          "amount": "1 cup",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Mint",
+          "amount": "1 tbsp, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Arborio Rice", "amount": "1 cup", "canGrow": false },
+        { "name": "Vegetable Broth", "amount": "4 cups", "canGrow": false },
+        { "name": "Parmesan", "amount": "1/4 cup, grated", "canGrow": false }
+      ],
+      "instructions": [
+        "Sauté rice in olive oil.",
+        "Add broth gradually, stirring until absorbed.",
+        "Stir in peas, mint, and Parmesan. Serve warm."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Summer Squash Stir Fry",
+      "description": "Colorful stir fry with squash and bell peppers.",
+      "imgURL": "images/squash-stir-fry.webp",
+      "ingredients": [
+        {
+          "name": "Yellow Squash",
+          "amount": "2 cups, sliced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Bell Pepper",
+          "amount": "1 cup, sliced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Garlic",
+          "amount": "2 cloves, minced",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Soy Sauce", "amount": "2 tbsp", "canGrow": false },
+        { "name": "Olive Oil", "amount": "1 tbsp", "canGrow": false }
+      ],
+      "instructions": [
+        "Heat olive oil in a wok or large skillet.",
+        "Add garlic, squash, and bell pepper.",
+        "Stir fry for 5–7 minutes. Add soy sauce and cook 1 more minute."
+      ]
+    }
+  ]
+}

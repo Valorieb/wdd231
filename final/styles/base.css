@@ -94,6 +94,14 @@ body {
 
   }
 
+  main {
+    display:block;
+    margin:0 auto;
+    width:300px;
+    text-align: center;
+    padding: 20px;
+  }
+
   #myButton {
     font-size: 2rem;
     background: none;

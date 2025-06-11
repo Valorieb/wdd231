@@ -1,0 +1,154 @@
+{
+  "garden": [
+    {
+      "name": "Tomato",
+      "status": "growing",
+      "plantedDate": "2025-05-15",
+      "estimatedHarvest": "2025-07-10",
+      "amountAvailable": "1.5 lbs",
+      "notes": "Growing well in raised bed #2."
+    },
+    {
+      "name": "Basil",
+      "status": "harvested",
+      "plantedDate": "2025-04-22",
+      "estimatedHarvest": "2025-06-05",
+      "amountAvailable": "1/4 cup",
+      "notes": "Already harvested once. May regrow."
+    },
+    {
+      "name": "Zucchini",
+      "status": "growing",
+      "plantedDate": "2025-05-20",
+      "estimatedHarvest": "2025-07-20",
+      "amountAvailable": "none yet",
+      "notes": "Blossoms just starting to open."
+    },
+    {
+      "name": "Green Onion",
+      "status": "not planted",
+      "amountAvailable": "0",
+      "notes": "Thinking about adding some to a container garden."
+    },
+    {
+      "name": "Carrot",
+      "status": "planted",
+      "plantedDate": "2025-06-01",
+      "estimatedHarvest": "2025-08-15",
+      "amountAvailable": "none yet",
+      "notes": "In ground bed with compost mulch."
+    },
+    {
+      "name": "Ginger",
+      "status": "not planted",
+      "amountAvailable": "0",
+      "notes": "Would need to try container growing indoors."
+    },
+    {
+      "name": "Onion",
+      "status": "growing",
+      "plantedDate": "2025-05-01",
+      "estimatedHarvest": "2025-07-01",
+      "amountAvailable": "1 medium",
+      "notes": "Used a starter bulb. One almost ready to harvest."
+    },
+    {
+      "name": "Cucumber",
+      "status": "growing",
+      "plantedDate": "2025-05-25",
+      "estimatedHarvest": "2025-07-15",
+      "amountAvailable": "none yet",
+      "notes": "Trellised on the fence. Blossoms appearing."
+    },
+    {
+      "name": "Mint",
+      "status": "harvested",
+      "plantedDate": "2025-04-10",
+      "estimatedHarvest": "2025-05-20",
+      "amountAvailable": "1 tbsp",
+      "notes": "Thriving in a pot. Needs pruning."
+    },
+    {
+      "name": "Bell Pepper",
+      "status": "growing",
+      "plantedDate": "2025-05-10",
+      "estimatedHarvest": "2025-07-30",
+      "amountAvailable": "none yet",
+      "notes": "Only a few flowers so far."
+    },
+    {
+      "name": "Corn",
+      "status": "not planted",
+      "amountAvailable": "0",
+      "notes": "Too large for current space."
+    },
+    {
+      "name": "Spinach",
+      "status": "harvested",
+      "plantedDate": "2025-03-20",
+      "estimatedHarvest": "2025-05-01",
+      "amountAvailable": "1 cup",
+      "notes": "Late spring harvest, might plant again in fall."
+    },
+    {
+      "name": "Potato",
+      "status": "growing",
+      "plantedDate": "2025-05-01",
+      "estimatedHarvest": "2025-07-20",
+      "amountAvailable": "none yet",
+      "notes": "In grow bags. Lots of leaf growth."
+    },
+    {
+      "name": "Rosemary",
+      "status": "growing",
+      "plantedDate": "2025-04-01",
+      "estimatedHarvest": "2025-06-15",
+      "amountAvailable": "1 tbsp",
+      "notes": "In a herb pot on the porch."
+    },
+    {
+      "name": "Thyme",
+      "status": "growing",
+      "plantedDate": "2025-04-01",
+      "estimatedHarvest": "2025-06-15",
+      "amountAvailable": "1 tsp",
+      "notes": "Doing well next to the rosemary."
+    },
+    {
+      "name": "Beet",
+      "status": "not planted",
+      "amountAvailable": "0",
+      "notes": "Don’t have space right now."
+    },
+    {
+      "name": "Arugula",
+      "status": "harvested",
+      "plantedDate": "2025-03-15",
+      "estimatedHarvest": "2025-04-30",
+      "amountAvailable": "2 cups",
+      "notes": "Bolted early but still usable."
+    },
+    {
+      "name": "Peas",
+      "status": "not planted",
+      "amountAvailable": "0",
+      "notes": "Too hot to plant right now."
+    },
+    {
+      "name": "Yellow Squash",
+      "status": "growing",
+      "plantedDate": "2025-05-20",
+      "estimatedHarvest": "2025-07-15",
+      "amountAvailable": "none yet",
+      "notes": "Same bed as zucchini."
+    },
+    {
+      "name": "Garlic",
+      "status": "planted",
+      "plantedDate": "2025-04-15",
+      "estimatedHarvest": "2025-07-30",
+      "amountAvailable": "none yet",
+      "notes": "Hardneck variety from farmers market."
+    }
+  ]
+}

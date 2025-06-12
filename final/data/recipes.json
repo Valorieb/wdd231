@@ -307,6 +307,173 @@
         "Add garlic, squash, and bell pepper.",
         "Stir fry for 5–7 minutes. Add soy sauce and cook 1 more minute."
       ]
+    },
+    {
+      "id": 11,
+      "title": "Kale and White Bean Stew",
+      "description": "Hearty and nutritious stew made with kale and white beans.",
+      "imgURL": "images/kale-soup.webp",
+      "ingredients": [
+        {
+          "name": "Kale",
+          "amount": "3 cups, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "White Beans", "amount": "2 cups, cooked", "canGrow": false },
+        {
+          "name": "Carrot",
+          "amount": "1 cup, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Garlic",
+          "amount": "2 cloves, minced",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Vegetable Broth", "amount": "4 cups", "canGrow": false }
+      ],
+      "instructions": [
+        "Sauté garlic and carrots until soft.",
+        "Add kale and cook until wilted.",
+        "Pour in broth and beans; simmer for 15–20 minutes.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Garden Veggie Flatbread",
+      "description": "Flatbread topped with a medley of garden vegetables.",
+      "imgURL": "images/flatbread.webp",
+      "ingredients": [
+        { "name": "Flatbread", "amount": "2 pieces", "canGrow": false },
+        {
+          "name": "Tomato",
+          "amount": "1 cup, sliced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Zucchini",
+          "amount": "1 cup, thinly sliced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Basil",
+          "amount": "2 tbsp, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Mozzarella",
+          "amount": "1 cup, shredded",
+          "canGrow": false
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F.",
+        "Top flatbread with veggies and cheese.",
+        "Bake for 10–12 minutes or until cheese is melted.",
+        "Garnish with basil and serve."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Chard and Feta Omelet",
+      "description": "A fluffy omelet packed with greens and tangy feta.",
+      "imgURL": "images/omelette.webp",
+      "ingredients": [
+        {
+          "name": "Swiss Chard",
+          "amount": "1 cup, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Egg", "amount": "3 large", "canGrow": false },
+        {
+          "name": "Feta Cheese",
+          "amount": "1/4 cup, crumbled",
+          "canGrow": false
+        },
+        { "name": "Salt", "amount": "to taste", "canGrow": false },
+        { "name": "Olive Oil", "amount": "1 tbsp", "canGrow": false }
+      ],
+      "instructions": [
+        "Sauté chard in olive oil until wilted.",
+        "Whisk eggs with salt and pour into skillet.",
+        "Sprinkle feta over top and cook until set.",
+        "Fold and serve."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Roasted Garlic Cauliflower",
+      "description": "A simple and delicious roasted cauliflower dish with garlic.",
+      "imgURL": "images/cauliflower.webp",
+      "ingredients": [
+        {
+          "name": "Cauliflower",
+          "amount": "1 head, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Garlic",
+          "amount": "4 cloves, minced",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        { "name": "Olive Oil", "amount": "2 tbsp", "canGrow": false },
+        { "name": "Salt", "amount": "to taste", "canGrow": false }
+      ],
+      "instructions": [
+        "Preheat oven to 425°F.",
+        "Toss cauliflower with garlic, olive oil, and salt.",
+        "Roast for 25–30 minutes until golden and tender.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sweet Corn Chowder",
+      "description": "A creamy chowder with sweet corn and garden herbs.",
+      "imgURL": "images/corn-chowder.webp",
+      "ingredients": [
+        {
+          "name": "Corn",
+          "amount": "2 cups, fresh or frozen",
+          "canGrow": true,
+          "isGrowing": false
+        },
+        {
+          "name": "Potato",
+          "amount": "1 cup, diced",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        {
+          "name": "Onion",
+          "amount": "1 small, chopped",
+          "canGrow": true,
+          "isGrowing": true
+        },
+        { "name": "Milk", "amount": "2 cups", "canGrow": false },
+        {
+          "name": "Thyme",
+          "amount": "1 tsp, chopped",
+          "canGrow": true,
+          "isGrowing": false
+        }
+      ],
+      "instructions": [
+        "Sauté onion and thyme until fragrant.",
+        "Add potatoes and corn; cook for 5 minutes.",
+        "Pour in milk and simmer until potatoes are soft.",
+        "Blend partially for a creamy texture and serve."
+      ]
     }
   ]
 }

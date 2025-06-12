@@ -1,5 +1,4 @@
 const recipeCards = document.getElementById("recipes");
-const ingredientList = document.createElement("ul");
 const modal = document.createElement("dialog");
 const modalCards = document.createElement("div");
 
@@ -7,17 +6,14 @@ document.body.appendChild(modal);
 modal.appendChild(modalCards);
 
 let recipeData =[];
-let ingredientData = [];
 let recIndex;
 
 function setIndex(id){
     recIndex = id -1;
     return recIndex;
-
 }
 
 async function getRecipeData() {
-    console.log("getting recipe data");
     const response = await fetch("data/recipes.json");
     const data = await response.json();
     recipeData = data.recipes;
@@ -42,7 +38,6 @@ function displayRecipes(recipes){
             recipeCard.appendChild(button);
             button.addEventListener("click",()=>{
                 setIndex(recipe.id);
-                console.log("Recipe index", recIndex);
                 displayModal(recipe);
                 modal.showModal();
             });
@@ -55,7 +50,6 @@ function displayModal(recipe){
     modalCards.innerHTML = "";
     const modalCard = document.createElement("div");
     modalCard.classList = "modal-card";
-    console.log("title", recipes.title);
 
     modalCard.innerHTML = `
         <h2>${recipe.title}</h2>
@@ -64,12 +58,20 @@ function displayModal(recipe){
         ${recipe.description}</p>
         <p><strong>Ingredients</strong><br>`;
 
+        const closeBtn = document.createElement("button");
+        closeBtn.textContent = "x";
+        closeBtn.classList.add("modal-close-btn");
+        closeBtn.addEventListener("click", () => modal.close());
+        modalCard.insertBefore(closeBtn, modalCard.firstChild);
+        
+
         const ul = document.createElement("ul");
         recipe.ingredients.forEach(ing =>{
             const li = document.createElement("li");
             li.textContent = `${ing.amount} ${ing.name}`;
             ul.appendChild(li);
         });
+        
         modalCard.appendChild(ul);
 
         const instructions = document.createElement("div");
@@ -82,18 +84,7 @@ function displayModal(recipe){
         });
         instructions.appendChild(ol);
         modalCard.appendChild(instructions);
-
-        const closeBtn = document.createElement("button");
-        closeBtn.textContent = "x";
-        closeBtn.classList.add("modal-close-btn");
-        closeBtn.addEventListener("click", () => modal.close());
-        modalCard.appendChild(closeBtn);
         modalCards.appendChild(modalCard);
-
-
-
 }
-
-
 
 getRecipeData();

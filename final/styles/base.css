@@ -11,10 +11,6 @@ body {
     border-radius: 5px;
   }
 
-  /* button:hover{
-
-  } */
-
   .logo img{
     width: 100px;
   }
@@ -54,10 +50,17 @@ body {
     padding: 20px;
   }
 
-  nav {
+  #navbar{
     margin-left: auto;
     padding: 10px;
+
+  
   }
+
+  /* nav {
+    margin-left: auto;
+    padding: 10px;
+  } */
   
   nav ul {
     display: block;
@@ -112,11 +115,13 @@ body {
     text-align: left;
     padding: 0.25rem 2vw;
     align-self: flex-start;
+    margin:20px;
   }
   
   #myButton::before {
     content: "\2630";
     color:#674636;
+    
   }
   
   #myButton.open::before {

@@ -1,0 +1,66 @@
+button{
+    display:block;
+    width:80px;
+    margin:20px auto;
+}
+form{
+    background-color: #fff8e8;
+    /* padding:20px; */
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(60, 50, 30, 0.08),
+    0 6px 12px rgba(60, 50, 30, 0.06);
+    text-align: start;
+}
+
+form h2{
+    text-align: center;
+    padding:10px;
+    background-color:#674636;
+    color:#fff8e8;
+    margin:0;
+    border-radius:10px 10px 0 0;
+}
+
+.form-container{
+    display:flex;
+}
+
+.form-container img {
+    height: 400px;
+    width: auto;
+    padding:20px;
+    align-self:center;
+    border: 2px solid;
+    border-radius:10px;
+}
+
+label{
+    margin:20px;
+}
+
+input{
+    margin:20px;
+    height:25px;
+    padding:5px;
+    width: 200px;
+}
+
+.benefits ul{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.benefits li{
+    list-style-type: none;
+    padding:20px;
+    font-size:x-large;
+    background-color:#c2cab0;
+    color: #333333;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(60, 50, 30, 0.08),
+    0 6px 12px rgba(60, 50, 30, 0.06);
+}

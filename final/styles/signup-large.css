@@ -1,0 +1,21 @@
+@media (min-width: 1025px) {
+  .benefits li {
+    width: 200px;
+    font-size:x-large;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  .form-container {
+    display: flex;
+  }
+
+  .form-container img {
+    height: 400px;
+    align-self: center;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+}

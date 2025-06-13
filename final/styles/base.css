@@ -11,8 +11,13 @@ body {
     border-radius: 5px;
   }
 
+  button:hover{
+    cursor:pointer;
+  }
+
   .logo img{
     width: 100px;
+    height: 100px;
   }
   
   h1 {

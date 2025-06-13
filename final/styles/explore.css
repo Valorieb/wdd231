@@ -1,4 +1,4 @@
-#recipes {
+#recipes, #favorite-recipes {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,12 +14,26 @@
     box-shadow:  0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.header-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+.favorite-icon {
+    border-color: transparent;
+    background-color: transparent;
+    font-size:x-large;
+}
+
 .modal-card{
+    width:200px;
     position: relative;
-    padding: 20px;
+    padding: 10px;
 }
 
 .modal-card img{
+    width: 100px;
+    height:auto;
     padding: 10px;
 }
 
@@ -30,5 +44,4 @@
     width: 45px;
     height: 45px;
     margin-left:auto;
-
 }

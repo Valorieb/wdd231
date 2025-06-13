@@ -5,6 +5,7 @@
       "title": "Tomato Basil Pasta",
       "description": "A fresh and easy summer pasta using garden tomatoes and basil.",
       "imgURL": "images/tomato-basil-pasta.webp",
+      "gardenGrown": "40%",
       "ingredients": [
         {
           "name": "Tomato",
@@ -34,6 +35,7 @@
       "title": "Zucchini Fritters",
       "description": "Crispy fritters made with fresh garden zucchini.",
       "imgURL": "images/zucchini-fritters.webp",
+      "gardenGrown": "40%",
       "ingredients": [
         {
           "name": "Zucchini",
@@ -62,6 +64,7 @@
       "title": "Carrot Ginger Soup",
       "description": "A comforting soup with sweet carrots and zingy ginger.",
       "imgURL": "images/carrot-ginger-soup.webp",
+      "gardenGrown": "60%",
       "ingredients": [
         {
           "name": "Carrot",
@@ -95,6 +98,7 @@
       "title": "Cucumber Mint Salad",
       "description": "A cool, crisp salad perfect for hot days.",
       "imgURL": "images/cucumber-salad.webp",
+      "gardenGrown": "50%",
       "ingredients": [
         {
           "name": "Cucumber",
@@ -122,6 +126,7 @@
       "title": "Stuffed Bell Peppers",
       "description": "Bell peppers stuffed with a savory rice and veggie mix.",
       "imgURL": "images/stuffed-peppers.webp",
+      "gardenGrown": "80%",
       "ingredients": [
         {
           "name": "Bell Pepper",
@@ -156,11 +161,13 @@
         "Stuff peppers and bake for 25 minutes."
       ]
     },
+
     {
       "id": 6,
       "title": "Spinach Mushroom Quesadillas",
       "description": "Quick vegetarian quesadillas with garden greens.",
       "imgURL": "images/quesadilla.webp",
+      "gardenGrown": "25%",
       "ingredients": [
         {
           "name": "Spinach",
@@ -187,6 +194,7 @@
       "title": "Herb Roasted Potatoes",
       "description": "Crispy baby potatoes tossed with fresh herbs.",
       "imgURL": "images/potatoes.webp",
+      "gardenGrown": "20%",
       "ingredients": [
         {
           "name": "Potato",
@@ -220,6 +228,7 @@
       "title": "Beet and Goat Cheese Salad",
       "description": "Earthy beets paired with creamy cheese and greens.",
       "imgURL": "images/beet-salad.webp",
+      "gardenGrown": "33%",
       "ingredients": [
         {
           "name": "Beet",
@@ -252,6 +261,7 @@
       "title": "Pea and Mint Risotto",
       "description": "A creamy spring risotto with garden peas and mint.",
       "imgURL": "images/risotto.webp",
+      "gardenGrown": "40%",
       "ingredients": [
         {
           "name": "Peas",
@@ -280,6 +290,7 @@
       "title": "Summer Squash Stir Fry",
       "description": "Colorful stir fry with squash and bell peppers.",
       "imgURL": "images/squash-stir-fry.webp",
+      "gardenGrown": "67%",
       "ingredients": [
         {
           "name": "Yellow Squash",
@@ -313,6 +324,7 @@
       "title": "Kale and White Bean Stew",
       "description": "Hearty and nutritious stew made with kale and white beans.",
       "imgURL": "images/kale-soup.webp",
+      "gardenGrown": "40%",
       "ingredients": [
         {
           "name": "Kale",
@@ -347,6 +359,7 @@
       "title": "Garden Veggie Flatbread",
       "description": "Flatbread topped with a medley of garden vegetables.",
       "imgURL": "images/flatbread.webp",
+      "gardenGrown": "60%",
       "ingredients": [
         { "name": "Flatbread", "amount": "2 pieces", "canGrow": false },
         {
@@ -385,6 +398,7 @@
       "title": "Chard and Feta Omelet",
       "description": "A fluffy omelet packed with greens and tangy feta.",
       "imgURL": "images/omelette.webp",
+      "gardenGrown": "25%",
       "ingredients": [
         {
           "name": "Swiss Chard",
@@ -413,6 +427,7 @@
       "title": "Roasted Garlic Cauliflower",
       "description": "A simple and delicious roasted cauliflower dish with garlic.",
       "imgURL": "images/cauliflower.webp",
+      "gardenGrown": "50%",
       "ingredients": [
         {
           "name": "Cauliflower",
@@ -441,6 +456,7 @@
       "title": "Sweet Corn Chowder",
       "description": "A creamy chowder with sweet corn and garden herbs.",
       "imgURL": "images/corn-chowder.webp",
+      "gardenGrown": "40%",
       "ingredients": [
         {
           "name": "Corn",

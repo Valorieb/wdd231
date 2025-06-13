@@ -1,1 +1,10 @@
-@media(min-width:1025px){}
+@media(min-width:1025px){
+    .modal-card{
+        width:500px;
+        padding: 20px;
+    }
+    
+    .modal-card img{
+        width:150px;
+    }
+}

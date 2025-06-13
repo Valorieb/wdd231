@@ -5,8 +5,8 @@ button{
 }
 form{
     background-color: #fff8e8;
-    /* padding:20px; */
-    width: 400px;
+    padding-bottom:20px;
+    width: 250px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(60, 50, 30, 0.08),
@@ -24,16 +24,15 @@ form h2{
 }
 
 .form-container{
-    display:flex;
+    display:block;
+    margin: 0 auto;
 }
 
 .form-container img {
-    height: 400px;
+    height: 150px;
     width: auto;
     padding:20px;
     align-self:center;
-    border: 2px solid;
-    border-radius:10px;
 }
 
 label{
@@ -50,13 +49,16 @@ input{
 .benefits ul{
     display: flex;
     padding: 20px;
+    flex-wrap:wrap;
+    justify-content: center;
     
 }
 
 .benefits li{
+    width: 300px;
+    height:auto;
     list-style-type: none;
     padding:20px;
-    font-size:x-large;
     background-color:#c2cab0;
     color: #333333;
     margin: 10px;

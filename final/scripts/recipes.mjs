@@ -88,7 +88,7 @@ function displayRecipes(recipes, container) {
 
     recipeCard.innerHTML = `
         
-        <img src="${recipe.imgURL}" alt="${recipe.title}" width="150" height="150">
+        <img src="${recipe.imgURL}" alt="${recipe.title}" width="150" height="150" loading="lazy">
             <p><strong>Description</strong><br>
             ${recipe.description}</p>
             <p>🌱 <strong>Garden grown:</strong> ${recipe.gardenGrown}</p>`;

@@ -15,7 +15,6 @@ const navLinks = [
   { text: "Home", href: "index.html" },
   { text: "Explore Recipes", href: "explore-recipes.html" },
   { text: "My Cookbook", href: "my-cookbook.html" },
-  { text: "Sign Up", href: "signup.html" },
 ];
 
 navLinks.forEach((link) => {

@@ -15,7 +15,6 @@ localStorage.setItem = function (key, value) {
   originalSetItem.call(this, key, value);
 };
 
-
 document.body.appendChild(modal);
 modal.appendChild(modalCards);
 
@@ -28,18 +27,35 @@ function setIndex(id) {
 }
 
 async function getRecipeData() {
-  const response = await fetch("data/recipes.json");
-  const data = await response.json();
-  recipeData = data.recipes;
-  if (recipeCards) {
-    displayRecipes(recipeData, recipeCards);
+  try {
+    const response = await fetch("data/recipes.json");
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const data = await response.json();
+    recipeData = data.recipes;
+    if (recipeCards) {
+      displayRecipes(recipeData, recipeCards);
+    }
+  } catch (error) {
+    console.error("Failed to load recipe data in getRecipeData:", error);
   }
 }
 
 async function fetchRecipeData() {
-  const response = await fetch("data/recipes.json");
-  const data = await response.json();
-  return data.recipes;
+  try {
+    const response = await fetch("data/recipes.json");
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return data.recipes;
+  } catch (error) {
+    console.error("Failed to load recipe data in fetchRecipeData:", error);
+    return [];
+  }
 }
 
 function getFavorites() {

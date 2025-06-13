@@ -1,8 +1,15 @@
 
+header{
+  margin-bottom:0;
+}
+
+h1{
+  margin:10px;
+}
 
 .main-container {
   background-color: #fff8e8;
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
 }
 
